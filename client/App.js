@@ -4,9 +4,9 @@ import { Provider } from 'react-redux'
 import { Router, browserHistory } from 'react-router'
 import IntlWrapper from './modules/Intl/IntlWrapper'
 
-import routes from './routes';
+import routes from './routes'
 
-require('./main.css');
+require('./main.css')
 
 export default function App(props) {
   return (
